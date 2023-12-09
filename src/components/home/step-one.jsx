@@ -14,8 +14,7 @@ export default function StepOne() {
               Save as you earn why purchasing from <span className="text-accent">Okanga.</span>
             </h1>
             <p className="w-4/5 text-secondary/60 pt-3 pb-8">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ratione quas, molestiae dolores suscipit veritatis maiores. Quis
-              fugit, corporis nostrum officiis blanditiis repudiandae ipsam doloremque.
+            Browse the Okonga Online Mall app (web or mobile) to discover your desired product from our diverse range. Choose your item and review its specifications.
             </p>
             <Button className="px-8 py-6 border-[1.5px] border-secondary">Let&apos;s get going</Button>
           </div>

@@ -10,7 +10,7 @@ export default function Features() {
         </span>
         <div className="w-full md:w-3/5 mx-auto">
           <h2 className="text-[52px] text-center font-bold leading-tight">
-            All you need to start using <span className="text-accent">Okanga</span> effectively
+          Experience quicker, simpler, less intrusive processes with <span className="text-accent">Okonga Online Mall,</span> while ensuring a risk-free experience.
           </h2>
         </div>
       </div>
@@ -18,11 +18,10 @@ export default function Features() {
         <div className="grid col-span-12 md:col-span-6 lg:col-span-4">
           <div className="flex flex-col items-center justify-center">
             <Atom size={40} className="mb-5" />
-            <h3 className="text-lg font-bold mb-2.5">Wide Range</h3>
+            <h3 className="text-lg font-bold mb-2.5">Fast and Authentic Deliveries</h3>
             <div className="w-[90%] mx-auto mb-5">
               <p className="text-secondary/60 text-center">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nobis sint beatae in officiis! Quibusdam sequi vitae mollitia
-                labore.
+              Enjoy swift, reliable delivery of genuine products. Okonga Online Mall ensures timely service with no hidden costs or added interest.
               </p>
             </div>
             <Link to="/" className="flex items-center text-primary font-bold gap-3">
@@ -37,11 +36,10 @@ export default function Features() {
         <div className="grid col-span-12 md:col-span-6 lg:col-span-4">
           <div className="flex flex-col items-center justify-center">
             <HandWaving size={40} className="mb-5" />
-            <h3 className="text-lg font-bold mb-2.5">No Long Term Contracts</h3>
+            <h3 className="text-lg font-bold mb-2.5">Zero Interest, Zero Additional Charges</h3>
             <div className="w-[90%] mx-auto mb-5">
               <p className="text-secondary/60 text-center">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nobis sint beatae in officiis! Quibusdam sequi vitae mollitia
-                labore.
+              Okonga Online  Mall offers transparency and financial peace of mind with no interest and zero additional charges.
               </p>
             </div>
             <Link to="/" className="flex items-center text-primary font-bold gap-3">
@@ -56,11 +54,10 @@ export default function Features() {
         <div className="grid col-span-12 md:col-span-6 lg:col-span-4">
           <div className="flex flex-col items-center justify-center">
             <CoinVertical size={40} className="mb-5" />
-            <h3 className="text-lg font-bold mb-2.5">No Hidden Fees</h3>
+            <h3 className="text-lg font-bold mb-2.5">Quality Assurance</h3>
             <div className="w-[90%] mx-auto mb-5">
               <p className="text-secondary/60 text-center">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nobis sint beatae in officiis! Quibusdam sequi vitae mollitia
-                labore.
+              Trust  Okonga Online Mall for the finest, authentic products. Our stringent quality control ensures high standards and peace of mind.
               </p>
             </div>
             <Link to="/" className="flex items-center text-primary font-bold gap-3">
