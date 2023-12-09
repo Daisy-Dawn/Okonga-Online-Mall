@@ -1,3 +1,4 @@
+import Faq from "../components/home/faq";
 import Features from "../components/home/features";
 import Hero from "../components/home/hero";
 import StepOne from "../components/home/step-one";
@@ -16,6 +17,7 @@ export default function Home() {
       <StepOne />
       <StepTwo />
       <StepThree />
+      <Faq />
       <Testimonials />
       <Footer />
     </>
