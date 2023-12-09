@@ -1,22 +1,23 @@
 import { Link } from "react-router-dom";
-import heroImage from "../../assets/images/hero-img-desktop.png";
 import { cn } from "../../lib/utils";
 import { Button, buttonVariants } from "../ui/button";
 import { Star } from "@phosphor-icons/react";
+import heroImage from "../../assets/images/hero-img-desktop.png";
+import Ticker from "../ui/ticker";
 
 export default function Hero() {
   return (
-    <main className="w-full min-h-[85vh] bg-[#F5F8FA] px-12 py-10">
-      <section className="w-full h-full grid grid-cols-12 items-center justify-between gap-8">
+    <main className="relative w-full min-h-[85vh] bg-[#F5F8FA] py-10">
+      <section className="w-full h-full grid grid-cols-12 items-center justify-between gap-8 px-12">
         <div className="w-full grid col-span-12 lg:col-span-6">
           <div className="flex flex-col items-start">
-            <span className="w-fit h-fit bg-muted px-3 py-1 rounded-full">
-              <p>👋 &nbsp; Hello, we are Okanga</p>
+            <span className="w-fit h-fit bg-muted px-4 py-1 rounded-tl-full rounded-r-full">
+              <p className="text-primary">👋 &nbsp; Hello, we are Okanga</p>
             </span>
             <h1 className="text-[52px] font-bold leading-tight pt-6 pb-3">
               Empower your lifestyle, seamlessly & effortlessly dealing with <span className="text-accent">Okanga.</span>
             </h1>
-            <p className="w-4/5 text-secondary/70 pt-3 pb-8">
+            <p className="w-4/5 text-secondary/60 pt-3 pb-8">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ratione quas, molestiae dolores suscipit veritatis maiores. Quis
               fugit, corporis nostrum officiis blanditiis repudiandae ipsam doloremque.
             </p>
@@ -26,7 +27,7 @@ export default function Hero() {
                 target="_blank"
                 className={cn(
                   buttonVariants(),
-                  "bg-background text-secondary px-8 py-6 border-[1.5px] border-secondary hover:text-secondary-foreground"
+                  "bg-[#F5F8FA] text-secondary px-8 py-6 border-[1.5px] border-secondary hover:text-secondary-foreground"
                 )}
               >
                 Get the app
@@ -59,6 +60,12 @@ export default function Hero() {
           </figure>
         </div>
       </section>
+      <div className="w-full pt-12 pb-12 overflow-x-hidden">
+        <div className="flex items-center justify-center">
+          <p className="text-secondary/70">Trusted by hundreds of progressive brands</p>
+        </div>
+        <Ticker />
+      </div>
     </main>
   );
 }

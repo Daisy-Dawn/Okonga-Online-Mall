@@ -1,14 +1,22 @@
+import Features from "../components/home/features";
 import Hero from "../components/home/hero";
+import StepOne from "../components/home/step-one";
+import StepThree from "../components/home/step-three";
+import StepTwo from "../components/home/step-two";
+import Testimonials from "../components/home/testimonials";
 import Footer from "../components/ui/footer";
 import Header from "../components/ui/header";
-import Ticker from "../components/ui/ticker";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Hero />
-      <Ticker />
+      <Features />
+      <StepOne />
+      <StepTwo />
+      <StepThree />
+      <Testimonials />
       <Footer />
     </>
   );

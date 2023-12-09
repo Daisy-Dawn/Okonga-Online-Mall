@@ -1,0 +1,83 @@
+:root {
+    --time: 100s;
+    --width: -200%;
+}
+
+.text-running-box {
+    width: 100%;
+    height: 12.1rem;
+    position: absolute;
+    bottom: -7vw;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.text-running-wrapper {
+    z-index: 1;
+    width: 100%;
+    background-color: #F5F8FA;
+    justify-content: flex-start;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    border-top: 1px solid rgb(161, 165, 169);
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    bottom: auto;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.text-running-inner {
+    animation: translateinfinite var(--time) linear infinite;
+    display: flex;
+    flex: none;
+}
+
+.text-running {
+    letter-spacing: 0;
+    text-transform: uppercase;
+    padding-block: 0.9rem;
+    font-size: 1.5rem;
+}
+
+.text-black {
+    color: #000;
+}
+
+.slash {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+@media screen and (min-width: 1320px) {
+    .text-running-box {
+        height: calc(100vw * 0.15);
+        min-height: 17.1rem;
+        bottom: -7vw;
+    }
+
+    .text-running {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-running-box {
+        height: calc(100vw * 0.15);
+        min-height: 10.1rem;
+        bottom: -8vw;
+    }
+
+    .text-running {
+        padding-block: 0.5rem;
+    }
+}
+
+
+@keyframes translateinfinite {
+    100% {
+        transform: translateX(calc(var(--width)));
+    }
+}

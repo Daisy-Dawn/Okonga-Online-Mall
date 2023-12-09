@@ -5,7 +5,7 @@ import { cn } from "../../lib/utils";
 
 export default function Header() {
   return (
-    <header className="w-full bg-[#F5F8FA] px-12 py-8">
+    <header className="w-full bg-[#F5F8FA] px-12 py-6">
       <nav role="navigation" className="flex items-center justify-between">
         <div className="">
           <img src={logo} alt="okanga logo" className="w-36" />
@@ -28,7 +28,7 @@ export default function Header() {
           <Link
             to="/"
             target="_blank"
-            className={cn(buttonVariants(), "bg-background text-secondary px-8 py-6 border-[1.5px] border-secondary hover:text-secondary-foreground")}
+            className={cn(buttonVariants(), "bg-[#F5F8FA] text-secondary px-8 py-6 border-[1.5px] border-secondary hover:text-secondary-foreground")}
           >
             Get the app
           </Link>
