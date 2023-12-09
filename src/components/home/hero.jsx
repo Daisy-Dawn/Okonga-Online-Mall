@@ -18,7 +18,7 @@ export default function Hero() {
               Empower your lifestyle, seamlessly & effortlessly dealing with <span className="text-accent">Okanga.</span>
             </h1>
             <p className="w-4/5 text-secondary/60 pt-3 pb-8">
-            "Split your payments into manageable installments at the standard market price. Enjoy 0% interest."
+              &ldquo;Split your payments into manageable installments at the standard market price. Enjoy 0% interest.&rdquo;
             </p>
             <div className="flex items-center gap-3">
               <Link

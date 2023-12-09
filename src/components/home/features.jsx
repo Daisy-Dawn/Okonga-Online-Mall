@@ -10,7 +10,7 @@ export default function Features() {
         </span>
         <div className="w-full md:w-3/5 mx-auto">
           <h2 className="text-[52px] text-center font-bold leading-tight">
-          Experience quicker, simpler, less intrusive processes with <span className="text-accent">Okonga Online Mall,</span> while ensuring a risk-free experience.
+            Experience quicker, simpler, less intrusive processes with <span className="text-accent">Okonga.</span>
           </h2>
         </div>
       </div>
@@ -21,7 +21,7 @@ export default function Features() {
             <h3 className="text-lg font-bold mb-2.5">Fast and Authentic Deliveries</h3>
             <div className="w-[90%] mx-auto mb-5">
               <p className="text-secondary/60 text-center">
-              Enjoy swift, reliable delivery of genuine products. Okonga Online Mall ensures timely service with no hidden costs or added interest.
+                Enjoy swift, reliable delivery of genuine products. Okonga Online Mall ensures timely service with no hidden costs or added interest.
               </p>
             </div>
             <Link to="/" className="flex items-center text-primary font-bold gap-3">
@@ -39,7 +39,7 @@ export default function Features() {
             <h3 className="text-lg font-bold mb-2.5">Zero Interest, Zero Additional Charges</h3>
             <div className="w-[90%] mx-auto mb-5">
               <p className="text-secondary/60 text-center">
-              Okonga Online  Mall offers transparency and financial peace of mind with no interest and zero additional charges.
+                Okonga Online Mall offers transparency and financial peace of mind with no interest and zero additional charges.
               </p>
             </div>
             <Link to="/" className="flex items-center text-primary font-bold gap-3">
@@ -57,7 +57,7 @@ export default function Features() {
             <h3 className="text-lg font-bold mb-2.5">Quality Assurance</h3>
             <div className="w-[90%] mx-auto mb-5">
               <p className="text-secondary/60 text-center">
-              Trust  Okonga Online Mall for the finest, authentic products. Our stringent quality control ensures high standards and peace of mind.
+                Trust Okonga Online Mall for the finest, authentic products. Our stringent quality control ensures high standards and peace of mind.
               </p>
             </div>
             <Link to="/" className="flex items-center text-primary font-bold gap-3">
