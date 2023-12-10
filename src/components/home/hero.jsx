@@ -8,8 +8,8 @@ import Ticker from "../ui/ticker";
 export default function Hero() {
   return (
     <main className="relative w-full min-h-[85vh] bg-[#F5F8FA] py-10">
-      <section className="w-full h-full grid grid-cols-12 items-center justify-between gap-8 px-6 md:px-12">
-        <div className="w-full grid col-span-12 lg:col-span-6">
+      <section className="w-full h-full grid grid-cols-12 items-center justify-center lg:justify-between gap-8 md:px-12">
+        <div className="w-full grid col-span-12 lg:col-span-6 px-6">
           <div className="flex flex-col items-start">
             <span className="w-fit h-fit bg-muted px-4 py-1 rounded-tl-full rounded-r-full">
               <p className="text-primary">👋 &nbsp; Hello, we are Okanga</p>

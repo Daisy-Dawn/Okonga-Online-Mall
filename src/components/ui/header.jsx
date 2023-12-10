@@ -36,7 +36,7 @@ export default function Header() {
             Get the app
           </Link>
           <Button className="hidden md:flex px-8 py-6 border-[1.5px] border-secondary">Contact us</Button>
-          <div className="flex flex-col items-center justify-center w-12 h-12 rounded-full lg:hidden">
+          <div className="flex flex-col items-center justify-center w-12 h-12 rounded-full lg:hidden cursor-pointer">
             <div className="w-1/2 h-0.5 bg-secondary"></div>
             <div className="w-1/2 h-0.5 bg-secondary my-1"></div>
             <div className="w-1/2 h-0.5 bg-secondary"></div>

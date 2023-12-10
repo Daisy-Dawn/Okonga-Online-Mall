@@ -2,10 +2,10 @@ import { Button } from "../ui/button";
 
 export default function StepThree() {
   return (
-    <section className="w-full min-h-[25vh] bg-[#F5F8FA] grid place-items-center px-6 md:px-12 py-12">
-      <div className="flex flex-col items-center justify-center">
+    <section className="w-full min-h-[25vh] bg-[#F5F8FA] grid justify-center lg:place-items-center py-12">
+      <div className="flex flex-col items-center justify-center px-6 md:px-12">
         <span className="w-fit h-fit bg-background px-6 py-1 mb-4 rounded-lg">
-          <p className="text-secondary/70 font-semibold tracking-widest">03 - EASY&apos;AND FAST DELIVERY</p>
+          <p className="text-sm sm:text-base text-secondary/70 font-semibold tracking-widest">03 - EASY&apos;AND FAST DELIVERY</p>
         </span>
         <div className="w-full md:w-3/5 mx-auto">
           <h2 className="text-4xl lg:text-[45px] text-center font-bold leading-tight">&ldquo;Midpoint Delivery&rdquo;</h2>
