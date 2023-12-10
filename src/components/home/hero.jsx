@@ -8,16 +8,16 @@ import Ticker from "../ui/ticker";
 export default function Hero() {
   return (
     <main className="relative w-full min-h-[85vh] bg-[#F5F8FA] py-10">
-      <section className="w-full h-full grid grid-cols-12 items-center justify-between gap-8 px-12">
+      <section className="w-full h-full grid grid-cols-12 items-center justify-between gap-8 px-6 md:px-12">
         <div className="w-full grid col-span-12 lg:col-span-6">
           <div className="flex flex-col items-start">
             <span className="w-fit h-fit bg-muted px-4 py-1 rounded-tl-full rounded-r-full">
               <p className="text-primary">👋 &nbsp; Hello, we are Okanga</p>
             </span>
-            <h1 className="text-[52px] font-bold leading-tight pt-6 pb-3">
+            <h1 className="text-4xl lg:text-[52px] font-bold leading-tight pt-6 pb-3">
               Empower your lifestyle, seamlessly & effortlessly dealing with <span className="text-accent">Okanga.</span>
             </h1>
-            <p className="w-4/5 text-secondary/60 pt-3 pb-8">
+            <p className="w-4/5 text-base text-secondary/60 pt-3 pb-8">
               &ldquo;Split your payments into manageable installments at the standard market price. Enjoy 0% interest.&rdquo;
             </p>
             <div className="flex items-center gap-3">
@@ -52,7 +52,8 @@ export default function Hero() {
           <figure>
             <img
               src={heroImage}
-              className="md:absolute md:-top-32 md:right-0 md:w-3/5 lg:relative lg:top-0 lg:right-0 lg:w-full max-w-full mx-auto select-none pointer-events-none"
+              // className="md:absolute md:-top-32 md:right-0 md:w-3/5 lg:relative lg:top-0 lg:right-0 lg:w-full max-w-full mx-auto select-none pointer-events-none"
+              className="relative max-w-full mx-auto select-none pointer-events-none"
               loading="eager"
               alt="illustration of cutomer rate in Okanga"
             />

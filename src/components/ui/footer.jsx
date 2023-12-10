@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
-      <section className="w-full bg-secondary text-background px-12 pt-20 pb-12">
+      <section className="w-full bg-secondary text-background px-6 lg:px-12 pt-20 pb-12">
         <div className="flex flex-col items-center justify-center">
           <div className="w-full mx-auto">
-            <h2 className="text-[52px] text-center font-bold leading-tight">Let&apos;s get started on something great</h2>
+            <h2 className="text-4xl lg:text-[52px] text-center font-bold leading-tight">Let&apos;s get started on something great</h2>
           </div>
           <div className="w-full md:w-2/6 mx-auto py-6">
             <p className="text-center text-muted text-secondary/6">Join over 20,000+ individuals growing with Okanga</p>

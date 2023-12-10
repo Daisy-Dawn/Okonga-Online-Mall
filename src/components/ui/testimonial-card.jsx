@@ -3,7 +3,7 @@ import { TwitterLogo } from "@phosphor-icons/react";
 export default function TestimonialCard() {
   return (
     <>
-      <div className="grid col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-4 even:mt-2.5">
+      <div className="grid col-span-12 sm:col-span-6 lg:col-span-4 xl:even:mt-2.5">
         <div className="w-fit h-fit p-1.5 bg-[#F5F8FA] rounded-xl">
           <div className="bg-background drop-shadow-md backdrop-blur-md p-6 rounded-xl">
             <div className="flex items-center justify-between mb-3">
@@ -27,14 +27,13 @@ export default function TestimonialCard() {
               <p className="text-sm text-secondary/60">
                 I recently discovered a fantastic online marketplace that has completely changed my shopping routine. It&apos;s incredibly easy to
                 find and own various items, whether it&apos;s a new tech gadget or stylish home decor. This platform&apos;s user-friendly approach and
-                diverse product range have made my multiple purchases a breeze.{" "}
+                diverse product range have made my multiple purchases a breeze.
               </p>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="grid col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-4 even:mt-2.5">
+      <div className="grid col-span-12 sm:col-span-6 lg:col-span-4 xl:even:mt-2.5">
         <div className="w-fit h-fit p-1.5 bg-[#F5F8FA] rounded-xl">
           <div className="bg-background drop-shadow-md backdrop-blur-md p-6 rounded-xl">
             <div className="flex items-center justify-between mb-3">
@@ -58,14 +57,13 @@ export default function TestimonialCard() {
               <p className="text-sm text-secondary/60">
                 I&apos;ve found a new level of convenience in my shopping experience thanks to a certain online platform. From kitchen appliances to
                 trendy gadgets, I&apos;ve seamlessly obtained everything I need. The flexibility and minimal input required make this platform my
-                preferred choice for hassle-free shopping.{" "}
+                preferred choice for hassle-free shopping.
               </p>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="grid col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-4 even:mt-2.5">
+      <div className="grid col-span-12 sm:col-span-6 lg:col-span-4 xl:even:mt-2.5">
         <div className="w-fit h-fit p-1.5 bg-[#F5F8FA] rounded-xl">
           <div className="bg-background drop-shadow-md backdrop-blur-md p-6 rounded-xl">
             <div className="flex items-center justify-between mb-3">

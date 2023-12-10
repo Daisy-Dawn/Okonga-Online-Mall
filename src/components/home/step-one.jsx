@@ -3,18 +3,19 @@ import { Button } from "../ui/button";
 
 export default function StepOne() {
   return (
-    <section className="w-full min-h-[75vh] grid place-items-center px-12 py-0">
-      <div className="w-full h-full grid grid-cols-12 items-center justify-between gap-8">
+    <section className="w-full min-h-[75vh] grid place-items-center px-6 md:px-12 py-0">
+      <div className="w-full h-full grid grid-cols-12 items-center justify-center gap-8">
         <div className="w-full grid col-span-12 lg:col-span-6">
           <div className="flex flex-col items-start">
             <span className="w-fit h-fit bg-muted px-4 py-1 rounded-tl-full rounded-r-full">
               <p className="text-primary">01 - SELECT A PRODUCT</p>
             </span>
-            <h1 className="text-[52px] font-bold leading-tight pt-6 pb-3">
+            <h1 className="text-4xl lg:text-[52px] font-bold leading-tight pt-6 pb-3">
               Save as you earn why purchasing from <span className="text-accent">Okanga.</span>
             </h1>
             <p className="w-4/5 text-secondary/60 pt-3 pb-8">
-            Browse the Okonga Online Mall app (web or mobile) to discover your desired product from our diverse range. Choose your item and review its specifications.
+              Browse the Okonga Online Mall app (web or mobile) to discover your desired product from our diverse range. Choose your item and review
+              its specifications.
             </p>
             <Button className="px-8 py-6 border-[1.5px] border-secondary">Let&apos;s get going</Button>
           </div>

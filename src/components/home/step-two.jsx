@@ -3,14 +3,14 @@ import { Button } from "../ui/button";
 
 export default function StepTwo() {
   return (
-    <section className="w-full min-h-screen grid place-items-center px-12 py-12">
-      <div className="w-full h-full flex-col lg:flex lg:flex-row-reverse items-center justify-between gap-16">
+    <section className="w-full min-h-screen grid place-items-center px-6 md:px-12 py-12">
+      <div className="w-full h-full flex-col lg:flex lg:flex-row-reverse items-center justify-center lg:justify-between gap-16">
         <div className="w-full flex flex-1">
           <div className="flex flex-col items-start">
             <span className="w-fit h-fit bg-muted px-4 py-1 rounded-tl-full rounded-r-full">
               <p className="text-primary">02 - WE CAN DO</p>
             </span>
-            <h1 className="text-[52px] font-bold leading-tight pt-6 pb-3">
+            <h1 className="text-4xl lg:text-[52px] font-bold leading-tight pt-6 pb-3">
               Customize your <span className="text-accent">payment</span> schedule freely.
             </h1>
             <p className="w-4/5 text-secondary/60 pt-3 pb-8">

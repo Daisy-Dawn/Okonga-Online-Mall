@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 
 export default function Features() {
   return (
-    <section className="w-full px-12 py-24">
+    <section className="w-full px-6 md:px-12 py-24">
       <div className="flex flex-col items-center justify-center">
         <span className="w-fit h-fit bg-muted px-6 py-1 mb-4 rounded-lg">
           <p className="text-primary font-semibold tracking-widest">FEATURES</p>
         </span>
         <div className="w-full md:w-3/5 mx-auto">
-          <h2 className="text-[52px] text-center font-bold leading-tight">
+          <h2 className="text-4xl lg:text-[52px] text-center font-bold leading-tight">
             Experience quicker, simpler, less intrusive processes with <span className="text-accent">Okonga.</span>
           </h2>
         </div>
       </div>
       <div className="grid grid-cols-12 items-center justify-between gap-8 py-16">
-        <div className="grid col-span-12 md:col-span-6 lg:col-span-4">
+        <div className="grid col-span-12 md:col-span-6 lg:col-span-4 place-items-center">
           <div className="flex flex-col items-center justify-center">
             <Atom size={40} className="mb-5" />
             <h3 className="text-lg font-bold mb-2.5">Fast and Authentic Deliveries</h3>
