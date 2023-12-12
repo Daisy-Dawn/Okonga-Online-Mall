@@ -1,4 +1,4 @@
-import { PlayCircle } from "@phosphor-icons/react";
+import { AppleLogo, GooglePlayLogo } from "@phosphor-icons/react";
 import { Button } from "./button";
 import { Link } from "react-router-dom";
 
@@ -15,9 +15,11 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-4 mt-5 mb-8">
             <Button className="bg-background text-secondary px-8 py-6 flex items-center gap-2 hover:bg-background/90">
-              <PlayCircle size={18} weight="bold" /> View demo
+              <AppleLogo size={18} weight="bold" /> Download
             </Button>
-            <Button className="bg-primary text-background px-8 py-6 hover:bg-primary/90">Get started</Button>
+            <Button className="bg-primary text-background items-center gap-2 px-8 py-6 hover:bg-primary/90">
+            <GooglePlayLogo />
+            Download </Button>
           </div>
         </div>
         <div className="w-full border-t-[0.5px] border-muted mt-12 pt-8">

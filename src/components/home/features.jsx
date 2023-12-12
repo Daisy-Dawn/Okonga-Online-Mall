@@ -68,6 +68,25 @@ export default function Features() {
             </Link>
           </div>
         </div>
+
+         {/* BREAK */}
+         <div className="grid col-span-12 md:col-span-6 lg:col-span-4">
+          <div className="flex flex-col items-center justify-center">
+            <CoinVertical size={40} className="mb-5" />
+            <h3 className="text-lg font-bold mb-2.5">Optional Insurance of all items</h3>
+            <div className="w-[90%] mx-auto mb-5">
+              <p className="text-secondary/60 text-center">
+              Okonga Online Mall offers optional insurance coverage for all purchases, providing added peace of mind. Customers can protect their items against unforeseen events, ensuring their investments are secure
+              </p>
+            </div>
+            <Link to="/" className="flex items-center text-primary font-bold gap-3">
+              Learn more
+              <span>
+                <ArrowRight size={16} weight="bold" />
+              </span>
+            </Link>
+          </div>
+        </div>
       </div>
     </section>
   );

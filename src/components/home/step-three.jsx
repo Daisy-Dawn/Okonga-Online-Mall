@@ -1,4 +1,5 @@
 import { Button } from "../ui/button";
+import { AppleLogo, GooglePlayLogo } from "@phosphor-icons/react";
 
 export default function StepThree() {
   return (
@@ -16,7 +17,15 @@ export default function StepThree() {
             delivery process commences immediately, while for a 6-month plan, delivery begins in the 3rd month.
           </p>
         </div>
-        <Button className="bg-primary text-background px-8 py-6">Book a free call now</Button>
+        {/* <Button className="bg-primary text-background px-8 py-6">Book a free call now</Button> */}
+        <div className="flex items-center gap-4 mt-5 mb-8">
+            <Button className="border-black border bg-transparent text-secondary px-8 py-6 flex items-center gap-2 hover:bg-background/90">
+              <AppleLogo size={18} weight="bold" /> Download
+            </Button>
+            <Button className="bg-slate-950 text-background items-center gap-2 px-8 py-6 hover:bg-primary/90">
+            <GooglePlayLogo />
+            Download </Button>
+          </div>
       </div>
     </section>
   );
