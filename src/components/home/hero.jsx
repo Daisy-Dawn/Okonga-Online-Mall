@@ -14,8 +14,8 @@ export default function Hero() {
             <span className="w-fit h-fit bg-muted px-4 py-1 rounded-tl-full rounded-r-full">
               <p className="text-primary">👋 &nbsp; Hello, we are Okanga</p>
             </span>
-            <h1 className="w-full text-4xl lg:text-[52px] font-bold leading-tight pt-6 pb-3">
-              Empower your lifestyle, seamlessly & effortlessly dealing with <span className="text-accent">Okanga.</span>
+            <h1 className="w-full text-3xl lg:text-5xl font-bold leading-tight pt-6 pb-3">
+              Empower your lifestyle with ease shop & pay gradually with <span className="text-accent">Okanga.</span>
             </h1>
             <p className="w-full md:w-4/5 text-base text-secondary/60 pt-3 pb-8">
               &ldquo;Split your payments into manageable installments at the standard market price. Enjoy 0% interest.&rdquo;
