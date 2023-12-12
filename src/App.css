@@ -9,7 +9,7 @@
     position: absolute;
     bottom: -7vw;
     overflow: hidden;
-    z-index: 100;
+    z-index: 20;
 }
 
 .text-running-wrapper {

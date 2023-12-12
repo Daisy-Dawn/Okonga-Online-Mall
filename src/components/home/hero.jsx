@@ -60,7 +60,7 @@ export default function Hero() {
           </figure>
         </div>
       </section>
-      <div className="w-full pt-12 pb-12 overflow-x-hidden">
+      <div className="w-full pt-10 md:pt-6 pb-6 overflow-x-hidden">
         <div className="flex items-center justify-center">
           <p className="text-secondary/70">Trusted by hundreds of progressive brands</p>
         </div>
