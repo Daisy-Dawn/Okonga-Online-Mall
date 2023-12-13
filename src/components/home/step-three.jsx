@@ -9,7 +9,7 @@ export default function StepThree() {
           <p className="text-sm sm:text-base text-secondary/70 font-semibold tracking-widest">03 - EASY&apos;AND FAST DELIVERY</p>
         </span>
         <div className="w-full md:w-3/5 mx-auto">
-          <h2 className="text-4xl lg:text-[45px] text-center font-bold leading-tight">&ldquo;Midpoint Delivery&rdquo;</h2>
+          <h2 className="text-3xl lg:text-5xl text-center font-bold leading-tight">&ldquo;Midpoint Delivery&rdquo;</h2>
         </div>
         <div className="w-full md:w-2/6 mx-auto py-6">
           <p className="text-center text-secondary/60">
@@ -19,13 +19,14 @@ export default function StepThree() {
         </div>
         {/* <Button className="bg-primary text-background px-8 py-6">Book a free call now</Button> */}
         <div className="flex items-center gap-4 mt-5 mb-8">
-            <Button className="border-black border bg-transparent text-secondary px-8 py-6 flex items-center gap-2 hover:bg-background/90">
-              <AppleLogo size={18} weight="bold" /> Download
-            </Button>
-            <Button className="bg-slate-950 text-background items-center gap-2 px-8 py-6 hover:bg-primary/90">
+          <Button className="border-black border bg-background text-secondary px-8 py-6 flex items-center gap-2 hover:bg-transparent">
+            <AppleLogo size={18} weight="bold" /> Download
+          </Button>
+          <Button className="bg-slate-950 text-background items-center gap-2 px-8 py-6 hover:bg-primary/90">
             <GooglePlayLogo />
-            Download </Button>
-          </div>
+            Download{" "}
+          </Button>
+        </div>
       </div>
     </section>
   );

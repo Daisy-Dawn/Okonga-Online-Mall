@@ -21,6 +21,7 @@
     padding-bottom: .2rem;
     border-top: 1px solid rgb(161, 165, 169);
     display: flex;
+    align-items: center;
     position: absolute;
     top: 65%;
     left: -1%;
@@ -32,23 +33,13 @@
 .text-running-inner {
     animation: translateinfinite var(--time) linear infinite;
     display: flex;
+    align-items: center;
     flex: none;
 }
 
-.text-running {
-    letter-spacing: 0;
-    text-transform: uppercase;
-    padding-block: 0.9rem;
-    font-size: 1.5rem;
-}
-
-.text-black {
-    color: #000;
-}
-
 .slash {
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
 }
 
 @media screen and (min-width: 1320px) {
@@ -68,10 +59,6 @@
         height: calc(100vw * 0.15);
         min-height: 10.1rem;
         bottom: -8vw;
-    }
-
-    .text-running {
-        padding-block: 0.5rem;
     }
 }
 

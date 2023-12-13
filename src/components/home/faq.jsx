@@ -9,7 +9,7 @@ export default function Faq() {
           <p className="text-sm sm:text-base text-primary font-semibold tracking-widest">FAQ</p>
         </span>
         <div className="w-full md:w-3/5 mx-auto">
-          <h2 className="text-4xl lg:text-[52px] text-center font-bold leading-tight">You have questions, we have the answers.</h2>
+          <h2 className="text-3xl lg:text-5xl text-center font-bold leading-tight">You have questions, we have the answers.</h2>
         </div>
       </div>
       {accordions.map((data) => (

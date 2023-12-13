@@ -10,11 +10,11 @@ export default function StepOne() {
             <span className="w-fit h-fit bg-muted px-4 py-1 rounded-tl-full rounded-r-full">
               <p className="text-sm sm:text-base text-primary">01 - SELECT A PRODUCT</p>
             </span>
-            <h1 className="text-4xl lg:text-[52px] font-bold leading-tight pt-6 pb-3">
+            <h1 className="text-3xl lg:text-5xl font-bold leading-tight pt-6 pb-3">
               Save more while shopping from <span className="text-accent">Okanga.</span>
             </h1>
             <p className="w-full md:w-4/5 text-secondary/60 pt-3 pb-8">
-              Browse the Okonga Online Mall app (web or mobile) to discover your desired product from our diverse range. Choose your item and review
+              Browse the okanga Online Mall app (web or mobile) to discover your desired product from our diverse range. Choose your item and review
               its specifications.
             </p>
             <Button className="px-8 py-6 border-[1.5px] border-secondary">Let&apos;s get going</Button>
