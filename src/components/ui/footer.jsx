@@ -1,4 +1,4 @@
-import { AppleLogo, GooglePlayLogo } from "@phosphor-icons/react";
+import { AppleLogo, FacebookLogo, GooglePlayLogo, InstagramLogo, TwitterLogo } from "@phosphor-icons/react";
 import { Button } from "./button";
 import { Link } from "react-router-dom";
 
@@ -18,8 +18,14 @@ export default function Footer() {
               <AppleLogo size={18} weight="bold" /> Download
             </Button>
             <Button className="bg-primary text-background items-center gap-2 px-8 py-6 hover:bg-primary/90">
-            <GooglePlayLogo />
-            Download </Button>
+              <GooglePlayLogo size={18} />
+              Download
+            </Button>
+          </div>
+          <div className="flex items-center gap-6">
+            <TwitterLogo size={24} weight="bold" className="cursor-pointer" />
+            <InstagramLogo size={24} weight="bold" className="cursor-pointer" />
+            <FacebookLogo size={24} weight="bold" className="cursor-pointer" />
           </div>
         </div>
         <div className="w-full border-t-[0.5px] border-muted mt-12 pt-8">
