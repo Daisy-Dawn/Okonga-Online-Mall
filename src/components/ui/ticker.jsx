@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import cocacola from "../../assets/images/coca-cola.png";
 import samsung from "../../assets/images/samsung.png";
 import gotv from "../../assets/images/gotv.png";
@@ -12,13 +11,12 @@ import hp from "../../assets/images/hp.png";
 import hyundai from "../../assets/images/hyundai.png";
 
 export default function Ticker() {
-  const ticker = useRef();
   return (
     <>
       <div className="flex items-center justify-center">
         <p className="text-secondary/70">Trusted by hundreds of progressive brands</p>
       </div>
-      <div className="text-running-box" ref={ticker}>
+      <div className="text-running-box">
         <div className="text-running-wrapper bg-background">
           <div className="text-running-inner">
             <div className="text-running text-black flex items-center">
